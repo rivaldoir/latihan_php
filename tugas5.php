@@ -30,17 +30,13 @@ date_default_timezone_set('Asia/Jakarta');
     $input_password = "rahasia123";
 
     if ($input_user == $user_terdaftar && $input_password == $password_terdaftar) {
-        echo "✅ Login berhasil! Selamat datang, $user_terdaftar.";
+        echo " Login berhasil! Selamat datang, $user_terdaftar.";
     } else {
-        echo "❌ Login gagal! Username atau password salah.";
+        echo " Login gagal! Username atau password salah.";
     }
     ?>
     <hr>
 
-    
-    
-    
-    
     <h3>Kasus 2: Kontrol Akses Berdasarkan Peran (User Role)</h3>
     <?php
     $peran_pengguna = "Admin";
@@ -66,7 +62,6 @@ date_default_timezone_set('Asia/Jakarta');
     
     
     
-    
     <h3>Kasus 3: Validasi Formulir (Form Validation)</h3>
     <?php
     $nama_lengkap = "Rivaldo Ir";
@@ -82,9 +77,9 @@ date_default_timezone_set('Asia/Jakarta');
     }
 
     if (empty($pesan_error)) {
-        echo "✅ Registrasi berhasil!";
+        echo " Registrasi berhasil!";
     } else {
-        echo "❌ Registrasi Gagal:<br>" . $pesan_error;
+        echo " Registrasi Gagal:<br>" . $pesan_error;
     }
     ?>
     <hr>
@@ -117,11 +112,11 @@ date_default_timezone_set('Asia/Jakarta');
     $jam = date('H');
 
     if ($jam >= 5 && $jam < 12) {
-        echo "🌞 Selamat Pagi!";
+        echo " Selamat Pagi!";
     } elseif ($jam >= 12 && $jam < 18) {
-        echo "☀️ Selamat Siang!";
+        echo " Selamat Siang!";
     } else {
-        echo "🌙 Selamat Malam!";
+        echo " Selamat Malam!";
     }
     ?>
 
