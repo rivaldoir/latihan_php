@@ -1,9 +1,9 @@
 <?php
-// File: operator2.php (Nama diganti)
+// File: operator2.php 
 
 echo "<b>Contoh 1: Menggabungkan Nama dengan Operator '.'</b><br>";
 
-// Mendeklarasikan dua variabel string (NAMA SUDAH DIGANTI)
+// Mendeklarasikan dua variabel string 
 $nama_depan = "Rivaldo";
 $nama_belakang = "Ir";
 
