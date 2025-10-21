@@ -2,7 +2,7 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title>Tugas Acara 11 - Penjumlahan Matriks</title>
+    <title>Penjumlahan Matriks</title>
     <style>
         body { 
             font-family: Arial, sans-serif;
@@ -30,7 +30,7 @@
 </head>
 <body>
 
-    <h2>Tugas Praktikum: Penjumlahan Matriks 3x3</h2>
+    <h2>Penjumlahan Matriks 3x3</h2>
 
     <?php
     // 1. Inisialisasi Matriks A dan B menggunakan array multidimensi
@@ -50,9 +50,9 @@
     $hasil_C = [];
 
     // 3. Proses penjumlahan menggunakan perulangan (looping) bersarang
-    // Perulangan luar untuk baris (index $i)
+    // Perulangan luar untuk baris 
     for ($i = 0; $i < 3; $i++) {
-        // Perulangan dalam untuk kolom (index $j)
+        // Perulangan dalam untuk kolom 
         for ($j = 0; $j < 3; $j++) {
             // Menjumlahkan elemen matriks A dan B pada posisi yang sama
             $hasil_C[$i][$j] = $matriks_A[$i][$j] + $matriks_B[$i][$j];

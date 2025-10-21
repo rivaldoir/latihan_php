@@ -47,4 +47,4 @@ while ($j <= 5) {
     echo "Looping While ke : " . $j . "<br>";
     $j++;
 }
-?>
+?> 
